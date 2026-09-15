@@ -1,0 +1,37 @@
+html{
+    font-size: 20px;
+}
+.box{
+    width: 900px;
+    height: 400px;
+    background-color: blue;
+} 
+.cha{
+   font-size: 30px
+}
+.con1{
+    font-size: 1.5em;
+    width: 1.2em;
+}
+.con2{
+    font-size: 1rem;
+
+}
+.cha .con2 p{
+    width: 50vw;
+    height: 50vh;
+    background-color: rgb(208, 104, 208);
+}
+@media (max-width: 780px){
+    .box{
+        width: 780px;
+        background-color: aqua;
+    }
+}
+@media (max-width: 480px){
+    .box{
+        width: 200px;
+        height: 100px;
+        background-color: black;
+    }
+}
